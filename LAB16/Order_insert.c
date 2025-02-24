@@ -21,7 +21,7 @@ void insert_ord(int x) {
         firstNode = newNode;
     } else {
         struct node *temp = firstNode;
-        // Traverse the list to find the correct position
+        
         while (temp->link != NULL && temp->link->data < x) {
             temp = temp->link;
         }
