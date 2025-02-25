@@ -14,13 +14,13 @@ void insert_ord(int x) {
         firstNode -> link = NULL;
     }
     else{
-        if(newNode -> data <= firstNode->data){     // > only for next prg
+        if(newNode -> data <= firstNode->data){    
             newNode->link =  firstNode;
             firstNode = newNode;
         }
         else{
             struct node *temp;
-            while(newNode->data >= (temp->link)->data){ // > only for next prg 
+            while(newNode->data >= (temp->link)->data){
                 temp = temp->link;
             }
         }
