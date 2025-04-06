@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "CIRCULAR_DLT.C": "cpp"
+        "CIRCULAR_DLT.C": "cpp",
+        "QUICK_SORT.C": "cpp"
     }
 }
